@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/JsonParse.dir/main.cpp.o"
   "CMakeFiles/JsonParse.dir/main.cpp.o.d"
+  "CMakeFiles/JsonParse.dir/tt.cpp.o"
+  "CMakeFiles/JsonParse.dir/tt.cpp.o.d"
   "JsonParse"
   "JsonParse.pdb"
 )

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gyli/CLion/JsonParse/main.cpp" "CMakeFiles/JsonParse.dir/main.cpp.o" "gcc" "CMakeFiles/JsonParse.dir/main.cpp.o.d"
+  "/home/gyli/CLion/JsonParse/tt.cpp" "CMakeFiles/JsonParse.dir/tt.cpp.o" "gcc" "CMakeFiles/JsonParse.dir/tt.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

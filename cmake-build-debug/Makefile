@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/JsonParse.dir/build.make CMakeFiles/JsonParse.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tt.o: tt.cpp.o
+.PHONY : tt.o
+
+# target to build an object file
+tt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JsonParse.dir/build.make CMakeFiles/JsonParse.dir/tt.cpp.o
+.PHONY : tt.cpp.o
+
+tt.i: tt.cpp.i
+.PHONY : tt.i
+
+# target to preprocess a source file
+tt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JsonParse.dir/build.make CMakeFiles/JsonParse.dir/tt.cpp.i
+.PHONY : tt.cpp.i
+
+tt.s: tt.cpp.s
+.PHONY : tt.s
+
+# target to generate assembly for a file
+tt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JsonParse.dir/build.make CMakeFiles/JsonParse.dir/tt.cpp.s
+.PHONY : tt.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tt.o"
+	@echo "... tt.i"
+	@echo "... tt.s"
 .PHONY : help
 
 

@@ -1,1 +1,0 @@
-/bin/g++-12 -g CMakeFiles/JsonParse.dir/main.cpp.o CMakeFiles/JsonParse.dir/tt.cpp.o -o JsonParse 
